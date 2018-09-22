@@ -41,5 +41,7 @@ for i in range(0, nit):
 	raw_input(':')
 	plt.clf()
 	'''
+	print result[i]
+	
 # plot a histogram of fitted centers of the gaussian
 plt.hist(result,bins=20)

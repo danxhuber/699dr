@@ -32,6 +32,11 @@ for i in range(0, nit):
     # fitted model
 	z=gaussian(x,popt[0],popt[1],popt[2],popt[3])
 
+
+
+
+
+
     # save the fitted center of the gaussian
 	result[i] = popt[1]
 	'''
